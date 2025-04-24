@@ -1,0 +1,198 @@
+
+  /* Base resets */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+ /* * Taj Mahal (Scene 1) SDG Icons & Summaries */
+
+.goal6,
+.goal11,
+.goal15,
+.goal17 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  overflow: visible;
+  text-align: center;
+  display: none;
+}
+.goal6       { left: 100px;  top: 100px; }
+.goal11      { left: 100px;  top: 300px; }
+.goal15      { left: 1500px; top: 300px; }
+.goal17      { left: 1500px; top: 100px; }
+
+.goal6summary,
+.goal11summary,
+.goal15summary,
+.goal17summary {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  overflow: visible;
+  word-wrap: normal;
+  white-space: normal;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  display: none;
+}
+.goal6summary { left: 100px;  top: 100px; }
+.goal11summary{ left: 100px;  top: 300px; }
+.goal15summary{ left: 1500px; top: 300px; }
+.goal17summary{ left: 1500px; top: 100px; }
+
+
+  /* Colosseum (Scene 2) SDG Icons & Summaries */
+
+.goal7, .goal9, .goal11col, .goal12col {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  overflow: visible;
+  text-align: center;
+  display: none;
+}
+.goal7      { left: 100px;  top: 100px; }
+.goal9      { left: 100px;  top: 300px; }
+.goal11col  { left: 1500px; top: 300px; }
+.goal12col  { left: 1500px; top: 100px; }
+
+.goal7summary, .goal9summary, .goal11colsummary, .goal12colsummary {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  overflow: visible;
+  word-wrap: normal;
+  white-space: normal;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  display: none;
+}
+.goal7summary     { left: 100px;  top: 100px; }
+.goal9summary     { left: 100px;  top: 300px; }
+.goal11colsummary { left: 1500px; top: 300px; }
+.goal12colsummary { left: 1500px; top: 100px; }
+
+
+ /* Eiffel Tower (Scene 3) SDG Icons & Summaries */
+
+.goal12eiff, .goal7eiff, .goal13, .goal6eiff {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  overflow: visible;
+  text-align: center;
+  display: none;
+}
+.goal12eiff { left: 100px;  top: 100px; }
+.goal7eiff  { left: 100px;  top: 300px; }
+.goal13     { left: 1500px; top: 300px; }
+.goal6eiff  { left: 1500px; top: 100px; }
+
+.goal12eiffsummary, .goal7eiffsummary, .goal13summary, .goal6eiffsummary {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  overflow: visible;
+  word-wrap: normal;
+  white-space: normal;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  display: none;
+}
+.goal12eiffsummary { left: 100px;  top: 100px; }
+.goal7eiffsummary  { left: 100px;  top: 300px; }
+.goal13summary     { left: 1500px; top: 300px; }
+.goal6eiffsummary  { left: 1500px; top: 100px; }
+
+/* GAME STYLING */
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 600px;
+  top: 30px;
+  font-size: 30px;
+  color: white;
+  text-decoration: overline;
+  font-family: 'Press Start 2P';
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  z-index: 10;
+}
+
+.background1 {
+  background-image: url("background1.jpg");
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.building1 {
+  position: absolute;
+  top: 460px;
+  left: 1500px;
+  height: 200px;
+  width: 200px;
+  background-image: url("keepgoing.jpg");
+  background-size: contain;
+}
+
+.scene1 {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: start;
+}
+
+.ground1 {
+  position: absolute;
+  left: 0;
+  right: 100px;
+  bottom: 0;
+  top: 615px;
+  height: 300px;
+  width: 100vw;
+  background-image: url("dirt.png");
+  background-size: contain;
+  border: inset black;
+}
+
+.ground2 {
+  position: absolute;
+  left: 0;
+  right: 100px;
+  bottom: 0;
+  top: 615px;
+  height: 300px;
+  width: 100vw;
+}
+
+#walkingman {
+  position: absolute;
+  top: 487px;
+  left: 0px;
+  height: 150px;
+  width: 150px;
+  z-index: 10;
+}
